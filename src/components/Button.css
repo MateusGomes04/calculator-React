@@ -1,12 +1,11 @@
-
 :root {
     --bg-button: #f0f0f0;
     --bg-buttonHover: #ececec69;
     --border-button: solid 1px #888;
 }
 
-.button{ 
-    font-size:  1.4em;
+.button {
+    font-size: 1.4em;
     background-color: var(--bg-button);
     border: none;
     border-right: var(--border-button);
@@ -15,12 +14,12 @@
     cursor: pointer;
 }
 
-.button:hover{
+.button:hover {
     background-color: var(--bg-buttonHover);
     opacity: 0.7;
 }
 
-.button:active{
+.button:active {
     background-color: #ccc;
 }
 
@@ -29,13 +28,14 @@
 }
 
 .button.triple {
-    grid-column:  span 3;
+    grid-column: span 3;
 }
 
 .button.operation {
     background-color: #fa8231;
     color: #FFF;
 }
+
 .button.operation:hover {
     background-color: #fa8231;
     opacity: 0.7;

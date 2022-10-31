@@ -8,8 +8,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
   <div>
-      <h1>Calculator</h1>
-      <Calculator />
+    <h1>Calculator</h1>
+    <Calculator />
   </div>
 );
 
